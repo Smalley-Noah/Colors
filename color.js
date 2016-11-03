@@ -24,20 +24,25 @@ Color.isColor = function(rgb){
 //redIntensity
 Color.redIntensity = function(rgb){
   Math.round(redworks/255)*100);
-
+  return;
 };
 
 //greenIntensity
 Color.greenIntensity = function(rgb){
   Math.round((greenworks/255)*100);
+  return;
 };
 
 //blueIntensity
 Color.blueIntensity = function(rgb){
   Math.round(blueworks/255)*100);
+  return;
 };
 
 //brightness
+Color.brighness = function(rgb){
 
+  return;
+}
 
 //complement
